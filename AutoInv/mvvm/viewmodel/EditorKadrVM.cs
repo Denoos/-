@@ -54,7 +54,7 @@ namespace AutoKadr.mvvm.viewmodel
         }
 
         internal void SetEditKadr(Kadr selectedKadr)
-        {
+        { 
             Kadr = selectedKadr;
             foreach (var post in Kadr.Posts)
                 listPosts.SelectedItems.Add(post);
