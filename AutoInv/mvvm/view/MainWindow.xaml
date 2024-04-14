@@ -1,0 +1,22 @@
+﻿<Window x:Class="AutoKadr.mvvm.view.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:AutoKadr.mvvm.viewmodel"
+        xmlns:local="clr-namespace:AutoKadr"
+        DataContext="{DynamicResource mainVM}"
+        mc:Ignorable="d"
+        Title="AutoKadr" >
+    <Window.Resources>
+        <vm:MainVM x:Key="mainVM"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        
+    </Grid>
+</Window>
